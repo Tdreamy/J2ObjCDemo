@@ -1,0 +1,16 @@
+PODS:
+  - j2o (1.0.0)
+
+DEPENDENCIES:
+  - j2o (from `./j2o`)
+
+EXTERNAL SOURCES:
+  j2o:
+    :path: "./j2o"
+
+SPEC CHECKSUMS:
+  j2o: 8e360a669e198f6a9e84c933d70c6e547cd269ab
+
+PODFILE CHECKSUM: 0ff95e993e2e635cc2830908a192163506a2afe2
+
+COCOAPODS: 1.10.0

@@ -1,0 +1,26 @@
+{
+  "name": "j2o",
+  "version": "1.0.0",
+  "summary": "j2objc test",
+  "description": "call Jave test",
+  "homepage": "https://github.com",
+  "license": {
+    "type": "MIT",
+    "file": "License.md"
+  },
+  "authors": {
+    "zty": "dtreamy1992@163.com"
+  },
+  "source": {
+    "git": "",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "j2o/*.{h,m}",
+  "libraries": "iconv",
+  "pod_target_xcconfig": {
+    "OTHER_LDFLAGS": "-ljre_emul"
+  }
+}

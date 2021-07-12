@@ -1,0 +1,24 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'J2ODemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'j2o', :path => './j2o'
+
+end
+
+J2OBJC_HOME = "/Users/dfg/Desktop/j2objc"
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if ['j2o'].include? "#{target}"
+      target.build_configurations.each do |config|
+        print "Setting #{target}'s search path\n"
+        config.build_settings['HEADER_SEARCH_PATHS'] = J2OBJC_HOME + '/include/'
+        config.build_settings['FRAMEWORK_SEARCH_PATHS'] = J2OBJC_HOME + '/lib'
+        config.build_settings['LIBRARY_SEARCH_PATHS'] = J2OBJC_HOME + '/lib'
+      end
+  end
+  end
+end

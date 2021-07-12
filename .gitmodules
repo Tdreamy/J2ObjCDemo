@@ -1,0 +1,3 @@
+[submodule "J2ODemo/j2o"]
+	path = J2ODemo/j2o
+	url = https://github.com/Tdreamy/j2ObjcCompoent.git
