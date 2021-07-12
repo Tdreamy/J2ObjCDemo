@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "23990508953975CCF945EF9FC0CFE87D"
-               BuildableName = "j2o"
+               BuildableName = "j2o.framework"
                BlueprintName = "j2o"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

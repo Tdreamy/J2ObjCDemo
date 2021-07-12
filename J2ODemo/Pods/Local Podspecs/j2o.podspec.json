@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "summary": "j2objc test",
   "description": "call Jave test",
-  "homepage": "https://github.com",
+  "homepage": "https://github.com/Tdreamy/j2ObjcCompoent.git",
   "license": {
     "type": "MIT",
     "file": "License.md"
@@ -18,7 +18,7 @@
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "j2o/*.{h,m}",
+  "source_files": "J2OCCOmpoent/ocdist/*.{h,m}",
   "libraries": "iconv",
   "pod_target_xcconfig": {
     "OTHER_LDFLAGS": "-ljre_emul"

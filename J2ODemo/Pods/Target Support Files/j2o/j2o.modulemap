@@ -1,0 +1,6 @@
+framework module j2o {
+  umbrella header "j2o-umbrella.h"
+
+  export *
+  module * { export * }
+}

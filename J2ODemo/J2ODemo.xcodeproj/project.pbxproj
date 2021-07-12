@@ -114,6 +114,7 @@
 				BB1261C1269C2D7D00584185 /* Sources */,
 				BB1261C2269C2D7D00584185 /* Frameworks */,
 				BB1261C3269C2D7D00584185 /* Resources */,
+				4CDF093834942E157437D904 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +171,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4CDF093834942E157437D904 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J2ODemo/Pods-J2ODemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-J2ODemo/Pods-J2ODemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-J2ODemo/Pods-J2ODemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		68721C996F15429ADE475BE3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
